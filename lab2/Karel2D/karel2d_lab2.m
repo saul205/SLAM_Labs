@@ -16,7 +16,7 @@ global configuration;
 configuration.ellipses = 1;
 configuration.samples = 0;
 configuration.tags = 0;
-configuration.odometry = 0;
+configuration.odometry = 1;
 configuration.noise = 1;
 configuration.alpha = 0.99; % only useful is chi2inv is available
 configuration.step_by_step = 0;
