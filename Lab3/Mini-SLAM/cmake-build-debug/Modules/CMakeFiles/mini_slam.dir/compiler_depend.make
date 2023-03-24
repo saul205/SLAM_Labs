@@ -65,6 +65,7 @@ Modules/CMakeFiles/mini_slam.dir/Calibration/PinHole.cc.o: /home/kl4ws/Documents
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -72,7 +73,9 @@ Modules/CMakeFiles/mini_slam.dir/Calibration/PinHole.cc.o: /home/kl4ws/Documents
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -121,6 +124,8 @@ Modules/CMakeFiles/mini_slam.dir/Calibration/PinHole.cc.o: /home/kl4ws/Documents
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -136,6 +141,7 @@ Modules/CMakeFiles/mini_slam.dir/Calibration/PinHole.cc.o: /home/kl4ws/Documents
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -179,6 +185,8 @@ Modules/CMakeFiles/mini_slam.dir/Calibration/PinHole.cc.o: /home/kl4ws/Documents
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -567,6 +575,7 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/EurocVisualLoader.cc.o: /home/kl4
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/type_traits \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
@@ -663,8 +672,11 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/EurocVisualLoader.cc.o: /home/kl4
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -673,6 +685,8 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/EurocVisualLoader.cc.o: /home/kl4
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -756,6 +770,8 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/EurocVisualLoader.cc.o: /home/kl4
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -1202,6 +1218,7 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/TUMRGBDLoader.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/type_traits \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
@@ -1298,8 +1315,11 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/TUMRGBDLoader.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -1308,6 +1328,8 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/TUMRGBDLoader.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1391,6 +1413,8 @@ Modules/CMakeFiles/mini_slam.dir/DatasetLoader/TUMRGBDLoader.cc.o: /home/kl4ws/D
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -1907,6 +1931,7 @@ Modules/CMakeFiles/mini_slam.dir/Features/FAST.cc.o: /home/kl4ws/Documents/maste
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1914,7 +1939,9 @@ Modules/CMakeFiles/mini_slam.dir/Features/FAST.cc.o: /home/kl4ws/Documents/maste
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -1940,6 +1967,8 @@ Modules/CMakeFiles/mini_slam.dir/Features/FAST.cc.o: /home/kl4ws/Documents/maste
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -1954,6 +1983,7 @@ Modules/CMakeFiles/mini_slam.dir/Features/FAST.cc.o: /home/kl4ws/Documents/maste
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
   /usr/include/c++/12/clocale \
@@ -1988,6 +2018,8 @@ Modules/CMakeFiles/mini_slam.dir/Features/FAST.cc.o: /home/kl4ws/Documents/maste
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2309,6 +2341,7 @@ Modules/CMakeFiles/mini_slam.dir/Features/ORB.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2316,7 +2349,9 @@ Modules/CMakeFiles/mini_slam.dir/Features/ORB.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -2342,6 +2377,8 @@ Modules/CMakeFiles/mini_slam.dir/Features/ORB.cc.o: /home/kl4ws/Documents/master
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -2356,6 +2393,7 @@ Modules/CMakeFiles/mini_slam.dir/Features/ORB.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
   /usr/include/c++/12/clocale \
@@ -2390,6 +2428,8 @@ Modules/CMakeFiles/mini_slam.dir/Features/ORB.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2672,6 +2712,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/KeyFrame.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2679,7 +2720,9 @@ Modules/CMakeFiles/mini_slam.dir/Map/KeyFrame.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -2728,6 +2771,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/KeyFrame.cc.o: /home/kl4ws/Documents/master
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -2743,6 +2788,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/KeyFrame.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -2786,6 +2832,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/KeyFrame.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3288,6 +3336,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3295,7 +3344,9 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -3344,6 +3395,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -3359,6 +3412,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -3402,6 +3456,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3842,8 +3898,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/Map.cc.o: /home/kl4ws/Documents/master/SLAM
   /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
   /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
   /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Matching/DescriptorMatching.h \
-  /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Map/Map.h \
-  /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Visualization/FrameVisualizer.h
+  /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Map/Map.h
 
 Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Map/MapPoint.cc \
   /usr/include/stdc-predef.h \
@@ -3908,6 +3963,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3915,7 +3971,9 @@ Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -3964,6 +4022,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -3979,6 +4039,7 @@ Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -4022,6 +4083,8 @@ Modules/CMakeFiles/mini_slam.dir/Map/MapPoint.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4442,6 +4505,7 @@ Modules/CMakeFiles/mini_slam.dir/Mapping/LocalMapping.cc.o: /home/kl4ws/Document
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4449,7 +4513,9 @@ Modules/CMakeFiles/mini_slam.dir/Mapping/LocalMapping.cc.o: /home/kl4ws/Document
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -4498,6 +4564,8 @@ Modules/CMakeFiles/mini_slam.dir/Mapping/LocalMapping.cc.o: /home/kl4ws/Document
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -4513,6 +4581,7 @@ Modules/CMakeFiles/mini_slam.dir/Mapping/LocalMapping.cc.o: /home/kl4ws/Document
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -4556,6 +4625,8 @@ Modules/CMakeFiles/mini_slam.dir/Mapping/LocalMapping.cc.o: /home/kl4ws/Document
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5066,6 +5137,7 @@ Modules/CMakeFiles/mini_slam.dir/Matching/DescriptorMatching.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5073,7 +5145,9 @@ Modules/CMakeFiles/mini_slam.dir/Matching/DescriptorMatching.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -5122,6 +5196,8 @@ Modules/CMakeFiles/mini_slam.dir/Matching/DescriptorMatching.cc.o: /home/kl4ws/D
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -5137,6 +5213,7 @@ Modules/CMakeFiles/mini_slam.dir/Matching/DescriptorMatching.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -5180,6 +5257,8 @@ Modules/CMakeFiles/mini_slam.dir/Matching/DescriptorMatching.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5684,6 +5763,7 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oBundleAdjustment.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5691,7 +5771,9 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oBundleAdjustment.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -5740,6 +5822,8 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oBundleAdjustment.cc.o: /home/kl
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -5755,6 +5839,7 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oBundleAdjustment.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -5798,6 +5883,8 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oBundleAdjustment.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6466,6 +6553,7 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oTypes.cc.o: /home/kl4ws/Documen
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6473,7 +6561,9 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oTypes.cc.o: /home/kl4ws/Documen
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -6522,6 +6612,8 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oTypes.cc.o: /home/kl4ws/Documen
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -6537,6 +6629,7 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oTypes.cc.o: /home/kl4ws/Documen
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -6580,6 +6673,8 @@ Modules/CMakeFiles/mini_slam.dir/Optimization/g2oTypes.cc.o: /home/kl4ws/Documen
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7123,6 +7218,7 @@ Modules/CMakeFiles/mini_slam.dir/System/MiniSLAM.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -7130,7 +7226,9 @@ Modules/CMakeFiles/mini_slam.dir/System/MiniSLAM.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -7179,6 +7277,8 @@ Modules/CMakeFiles/mini_slam.dir/System/MiniSLAM.cc.o: /home/kl4ws/Documents/mas
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -7194,6 +7294,7 @@ Modules/CMakeFiles/mini_slam.dir/System/MiniSLAM.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -7237,6 +7338,8 @@ Modules/CMakeFiles/mini_slam.dir/System/MiniSLAM.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7838,6 +7941,7 @@ Modules/CMakeFiles/mini_slam.dir/System/Settings.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -7845,7 +7949,9 @@ Modules/CMakeFiles/mini_slam.dir/System/Settings.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -7894,6 +8000,8 @@ Modules/CMakeFiles/mini_slam.dir/System/Settings.cc.o: /home/kl4ws/Documents/mas
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -7909,6 +8017,7 @@ Modules/CMakeFiles/mini_slam.dir/System/Settings.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -7952,6 +8061,8 @@ Modules/CMakeFiles/mini_slam.dir/System/Settings.cc.o: /home/kl4ws/Documents/mas
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -8372,6 +8483,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Frame.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -8379,7 +8491,9 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Frame.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -8428,6 +8542,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Frame.cc.o: /home/kl4ws/Documents/mast
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -8443,6 +8559,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Frame.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -8486,6 +8603,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Frame.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -8984,6 +9103,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/MonocularMapInitializer.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -8991,7 +9111,9 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/MonocularMapInitializer.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h \
@@ -9018,6 +9140,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/MonocularMapInitializer.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/exception \
   /usr/include/c++/12/bits/exception_ptr.h \
   /usr/include/c++/12/bits/exception_defines.h \
@@ -9096,6 +9219,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/MonocularMapInitializer.cc.o: /home/kl
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -9138,6 +9263,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/MonocularMapInitializer.cc.o: /home/kl
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -9602,6 +9729,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Tracking.cc.o: /home/kl4ws/Documents/m
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -9609,7 +9737,9 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Tracking.cc.o: /home/kl4ws/Documents/m
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h \
@@ -9636,6 +9766,7 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Tracking.cc.o: /home/kl4ws/Documents/m
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/exception \
   /usr/include/c++/12/bits/exception_ptr.h \
   /usr/include/c++/12/bits/exception_defines.h \
@@ -9714,6 +9845,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Tracking.cc.o: /home/kl4ws/Documents/m
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -9756,6 +9889,8 @@ Modules/CMakeFiles/mini_slam.dir/Tracking/Tracking.cc.o: /home/kl4ws/Documents/m
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -10322,6 +10457,7 @@ Modules/CMakeFiles/mini_slam.dir/Utils/Geometry.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -10329,7 +10465,9 @@ Modules/CMakeFiles/mini_slam.dir/Utils/Geometry.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h \
@@ -10356,6 +10494,7 @@ Modules/CMakeFiles/mini_slam.dir/Utils/Geometry.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/exception \
   /usr/include/c++/12/bits/exception_ptr.h \
   /usr/include/c++/12/bits/exception_defines.h \
@@ -10434,6 +10573,8 @@ Modules/CMakeFiles/mini_slam.dir/Utils/Geometry.cc.o: /home/kl4ws/Documents/mast
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -10476,6 +10617,8 @@ Modules/CMakeFiles/mini_slam.dir/Utils/Geometry.cc.o: /home/kl4ws/Documents/mast
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -10939,6 +11082,7 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/FrameVisualizer.cc.o: /home/kl4ws
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -10946,7 +11090,9 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/FrameVisualizer.cc.o: /home/kl4ws
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -10995,6 +11141,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/FrameVisualizer.cc.o: /home/kl4ws
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -11010,6 +11158,7 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/FrameVisualizer.cc.o: /home/kl4ws
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -11053,6 +11202,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/FrameVisualizer.cc.o: /home/kl4ws
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -11556,6 +11707,7 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -11563,7 +11715,9 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/array \
   /usr/include/c++/12/compare \
@@ -11612,6 +11766,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/12/string \
@@ -11627,6 +11783,7 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
   /usr/include/c++/12/bits/new_allocator.h \
@@ -11670,6 +11827,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -12402,9 +12561,21 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/stuff/sparse_helper.h:
 
-/usr/include/linux/stat.h:
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/matrix_operations.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/solver.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/block_solver.h:
+
+/usr/local/include/pangolin/var/varwrapper.h:
+
+/usr/include/GL/glu.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_se3_expmap.h:
 
 /usr/include/c++/12/bits/unordered_map.h:
 
@@ -12442,12 +12613,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/opencv4/opencv2/core/persistence.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/12/bits/range_access.h:
-
-/usr/local/include/opencv4/opencv2/flann/allocator.h:
-
 /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
@@ -12475,8 +12640,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/include/GL/gl.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp:
 
@@ -12539,8 +12702,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_project_p2mc.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/block_solver.h:
 
 /usr/include/c++/12/bits/ostream.tcc:
 
@@ -12618,8 +12779,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
-/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
-
 /usr/local/include/opencv4/opencv2/dnn.hpp:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/solvers/eigen/linear_solver_eigen.h:
@@ -12666,12 +12825,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/12/bits/random.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/local/include/pangolin/var/varextra.h:
@@ -12681,6 +12834,10 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/include/c++/12/debug/assertions.h:
 
 /usr/include/stdio.h:
+
+/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/12/ext/string_conversions.h:
 
@@ -12692,9 +12849,31 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
 
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/c++/12/bits/stl_map.h:
+
+/usr/include/asm-generic/errno.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Mapping/LocalMapping.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/12/cassert:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Matching/DescriptorMatching.h:
+
 /usr/include/c++/12/bits/utility.h:
 
 /usr/include/c++/12/bits/stl_construct.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/12/bits/random.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
 
@@ -12704,13 +12883,9 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/wchar.h:
 
-/usr/local/include/opencv4/opencv2/flann/random.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/se3.hpp:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/solver.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -12720,12 +12895,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/c++/12/bits/stl_vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/optimization_algorithm.h:
-
-/usr/include/c++/12/bits/hashtable_policy.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/stuff/misc.h:
@@ -12734,19 +12903,13 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_project_xyz.h:
+/usr/include/c++/12/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
-/usr/local/include/opencv4/opencv2/stitching.hpp:
-
-/usr/include/c++/12/bits/stl_map.h:
-
-/usr/include/asm-generic/errno.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Mapping/LocalMapping.h:
+/usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
 
 /usr/include/c++/12/compare:
 
@@ -12767,6 +12930,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/12/bits/exception.h:
 
@@ -12868,10 +13033,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/c++/12/bits/erase_if.h:
-
-/usr/include/c++/12/bits/cxxabi_init_exception.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Map.h:
 
 /usr/include/stdint.h:
@@ -12930,11 +13091,27 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_project_xyz.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/local/include/opencv4/opencv2/stitching.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/string.h:
+
 /usr/local/include/eigen3/Eigen/OrderingMethods:
 
 /usr/include/c++/12/bits/streambuf.tcc:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/c++/12/bitset:
 
 /usr/include/c++/12/ostream:
 
@@ -12978,10 +13155,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/12/cassert:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/optimizable_graph.h:
@@ -12999,10 +13172,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/include/c++/12/iomanip:
 
 /usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/12/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/local/include/eigen3/Eigen/Sparse:
 
@@ -13030,6 +13199,12 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/12/bits/exception_defines.h:
+
+/usr/local/include/opencv4/opencv2/flann/allocator.h:
+
 /usr/local/include/opencv4/opencv2/flann/all_indices.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/solvers/dense/linear_solver_dense.h:
@@ -13043,6 +13218,22 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/cerrno:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Features/ORB.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/optimization_algorithm.h:
+
+/usr/include/c++/12/bits/hashtable_policy.h:
 
 /usr/local/include/pangolin/var/varvaluet.h:
 
@@ -13060,12 +13251,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/Cholesky:
 
-/usr/local/include/pangolin/var/varwrapper.h:
-
-/usr/include/GL/glu.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_se3_expmap.h:
-
 /usr/local/include/opencv4/opencv2/core/hal/interface.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
@@ -13075,10 +13260,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/include/c++/12/ext/numeric_traits.h:
 
 /usr/include/c++/12/cfloat:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/matrix_operations.h:
 
 /usr/include/c++/12/bits/chrono.h:
 
@@ -13140,8 +13321,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h:
 
-/usr/local/include/opencv4/opencv2/flann/composite_index.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/local/include/opencv4/opencv2/objdetect/face.hpp:
@@ -13176,12 +13355,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
-
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
@@ -13208,9 +13381,25 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/c++/12/streambuf:
 
-/usr/include/string.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
+
+/usr/include/c++/12/bits/basic_string.h:
+
+/usr/local/include/pangolin/gl/glfont.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/float.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/12/cstdint:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/12/bits/memoryfwd.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h:
 
@@ -13224,14 +13413,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/c++/12/cwchar:
 
-/usr/local/include/pangolin/gl/glfont.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/float.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/12/bits/basic_string.h:
-
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/types_sba.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
@@ -13241,8 +13422,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /usr/local/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/c++/12/bits/hashtable.h:
 
@@ -13266,6 +13445,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/c++/12/iosfwd:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/c++/12/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -13278,19 +13459,15 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
+/usr/include/c++/12/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/12/bits/erase_if.h:
+
+/usr/local/include/opencv4/opencv2/flann/random.h:
+
 /usr/include/c++/12/stdexcept:
 
 /usr/include/c++/12/bits/invoke.h:
-
-/usr/include/c++/12/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/c++/12/bits/memoryfwd.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -13306,9 +13483,17 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Matching/DescriptorMatching.h:
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
+
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+
+/usr/include/linux/stat.h:
+
+/usr/local/include/opencv4/opencv2/flann/composite_index.h:
 
 /usr/local/include/opencv4/opencv2/flann/lsh_table.h:
 
@@ -13326,9 +13511,9 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/c++/12/bits/locale_facets_nonio.tcc:
 
-/usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/base_binary_edge.h:
 
@@ -13728,8 +13913,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/so3.hpp:
 
-/usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
-
 /usr/local/include/eigen3/Eigen/src/misc/Image.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
@@ -13858,6 +14041,8 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 
 /usr/include/asm-generic/bitsperlong.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/linux/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
@@ -13873,12 +14058,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Features/FAST.cc:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Features/FAST.h:
-
-/usr/include/c++/12/bits/stl_uninitialized.h:
-
-/usr/include/c++/12/cerrno:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Features/ORB.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Map/KeyFrame.h:
 
@@ -13913,8 +14092,6 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/EXTERNAL/ceres/memory.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/core/hyper_graph.h:
-
-/usr/include/c++/12/bitset:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h:
 
@@ -13963,5 +14140,3 @@ Modules/CMakeFiles/mini_slam.dir/Visualization/MapVisualizer.cc.o: /home/kl4ws/D
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/EXTERNAL/ceres/fixed_array.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/types/sba/edge_project_xyz_onlypose.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/g2o/g2o/stuff/sparse_helper.h:

@@ -35,6 +35,7 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/type_traits \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
@@ -131,8 +132,11 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -141,6 +145,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -224,6 +230,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/climits \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
@@ -1104,8 +1112,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/misc/Image.h:
 
-/usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
-
 /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Reverse.h:
@@ -1146,11 +1152,31 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/c++/12/atomic:
 
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Transpositions.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
+/usr/local/include/pangolin/utils/true_false_toggle.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/SolverBase.h:
+
+/usr/local/include/pangolin/plot/plotter.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
+
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/so3.hpp:
 
 /usr/include/endian.h:
-
-/usr/include/c++/12/ios:
 
 /usr/local/include/opencv4/opencv2/flann/heap.h:
 
@@ -1162,9 +1188,11 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/stdio.h:
+/usr/include/c++/12/ios:
 
 /usr/include/c++/12/any:
 
@@ -1190,19 +1218,13 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
 /usr/include/c++/12/bits/alloc_traits.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/Macros.h:
-
-/usr/include/features-time64.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/common.hpp:
 
@@ -1217,6 +1239,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/12/ext/string_conversions.h:
 
@@ -1237,12 +1261,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/local/include/opencv4/opencv2/core/check.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -1308,12 +1326,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/c++/12/stdexcept:
 
-/usr/local/include/opencv4/opencv2/video.hpp:
-
-/usr/include/math.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
-
 /usr/include/asm-generic/errno.h:
 
 /usr/local/include/opencv4/opencv2/core/mat.inl.hpp:
@@ -1328,7 +1340,13 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
+/usr/include/c++/12/debug/debug.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h:
+
 /usr/include/c++/12/streambuf:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/string.h:
 
@@ -1339,6 +1357,46 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/include/c++/12/bits/move.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/local/include/opencv4/opencv2/flann/all_indices.h:
+
+/usr/include/c++/12/bits/postypes.h:
+
+/usr/include/GL/glu.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
+
+/usr/local/include/opencv4/opencv2/core/check.hpp:
+
+/usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/12/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/12/bits/std_mutex.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/usr/local/include/pangolin/display/view.h:
+
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/se3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
 
 /usr/local/include/pangolin/display/display.h:
 
@@ -1382,22 +1440,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/12/bits/std_mutex.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
-
-/usr/local/include/pangolin/display/view.h:
-
-/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Thirdparty/Sophus/sophus/se3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
-
 /usr/include/c++/12/cwchar:
 
 /usr/local/include/pangolin/var/varvaluet.h:
@@ -1408,21 +1450,7 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
-/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
-
 /usr/include/c++/12/bits/localefwd.h:
-
-/usr/local/include/opencv4/opencv2/flann/all_indices.h:
-
-/usr/include/c++/12/bits/postypes.h:
-
-/usr/include/GL/glu.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/12/bits/nested_exception.h:
 
 /usr/include/c++/12/string:
 
@@ -1439,8 +1467,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/Map/Map.h:
 
 /usr/include/c++/12/ostream:
-
-/usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
 /usr/include/c++/12/new:
 
@@ -1480,10 +1506,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
-/usr/local/include/pangolin/utils/true_false_toggle.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/SolverBase.h:
-
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Product.h:
@@ -1499,6 +1521,10 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/local/include/opencv4/opencv2/flann/saving.h:
 
@@ -1546,8 +1572,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Array.h:
@@ -1557,6 +1581,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/c++/12/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
 /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/Modules/System/MiniSLAM.h:
 
@@ -1571,10 +1597,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/include/c++/12/initializer_list:
 
 /usr/include/c++/12/cwctype:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -1612,8 +1634,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/c++/12/bits/allocator.h:
 
-/usr/local/include/eigen3/Eigen/Core:
-
 /usr/include/stdc-predef.h:
 
 /usr/local/include/pangolin/utils/type_convert.h:
@@ -1646,6 +1666,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
 /usr/include/c++/12/locale:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -1670,23 +1692,17 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/c++/12/bits/ostream_insert.h:
 
-/usr/local/include/opencv4/opencv2/flann/config.h:
-
-/usr/local/include/eigen3/Eigen/Dense:
-
 /usr/include/c++/12/bits/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/12/debug/assertions.h:
 
-/usr/include/c++/12/debug/debug.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h:
-
 /usr/local/include/opencv4/opencv2/flann/flann_base.hpp:
 
 /usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1703,6 +1719,22 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/local/include/pangolin/gl/gl.h:
 
 /usr/include/c++/12/bits/stl_pair.h:
+
+/usr/local/include/opencv4/opencv2/flann/config.h:
+
+/usr/local/include/eigen3/Eigen/Dense:
+
+/usr/local/include/eigen3/Eigen/Core:
+
+/usr/include/features-time64.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Macros.h:
+
+/usr/local/include/opencv4/opencv2/video.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/usr/include/math.h:
 
 /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
 
@@ -1884,6 +1916,8 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/include/c++/12/cstring:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
@@ -1958,8 +1992,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
-
 /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
@@ -2000,11 +2032,11 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 
 /usr/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Map.h:
 
@@ -2022,10 +2054,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
-/usr/local/include/pangolin/plot/plotter.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
@@ -2033,8 +2061,6 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/include/c++/12/ratio:
 
 /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Transpositions.h:
 
 /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
@@ -2103,5 +2129,3 @@ Apps/CMakeFiles/mono_tumrgbd.dir/mono_tumrgbd.cc.o: /home/kl4ws/Documents/master
 /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Solve.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:

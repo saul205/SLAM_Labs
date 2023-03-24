@@ -61,10 +61,11 @@ int searchForInitializaion(Frame& refFrame, Frame& currFrame, int th, vector<int
         /*
          * Your code for task 1 here!
          */
-        //currFrame.getFeaturesInArea(uv.x,uv.y,radius,nLastOctave-1,nLastOctave+1, vIndicesToCheck);
+        float radius = 1000 * currFrame.getScaleFactor(minOctave);
+        currFrame.getFeaturesInArea(vRefKeys[i].pt.x,vRefKeys[i].pt.y,radius,vRefKeys[i].octave-1,vRefKeys[i].octave+1, vIndicesToCheck);
         int bestDist = 255, secondBestDist = 255;
         size_t bestIdx = -1;
-        for(size_t j = 0; j < vCurrKeys.size(); j++){
+        for(size_t j : vIndicesToCheck){
 
             if(vnMatches21[j] != -1)
                 continue;
