@@ -21,7 +21,7 @@ disp(['GROUND  TRUTH: ' sprintf('%2d  ', GT)]);
 
 
 % NN, SINGLES, JCBB
-H = SINGLES(prediction, observations, compatibility);
+H = NN(prediction, observations, compatibility);
 
 disp(['MY HYPOTHESIS: ' sprintf('%2d  ', H)]);
 disp(['Correct (1/0)? ' sprintf('%2d  ', GT == H)]);

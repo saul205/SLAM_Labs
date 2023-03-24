@@ -1,0 +1,8 @@
+All of the files are being compressed not to miss an important file by mistake.
+
+Modified files:
+
+- Data association -> to select algorithm
+- SINGLES
+- JCBB
+- Karel2d -> config & map maintenance

@@ -1,0 +1,9 @@
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/CMakeFiles/edit_cache.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/CMakeFiles/rebuild_cache.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Modules/CMakeFiles/mini_slam.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Modules/CMakeFiles/edit_cache.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Modules/CMakeFiles/rebuild_cache.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Apps/CMakeFiles/mono_euroc.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Apps/CMakeFiles/mono_tumrgbd.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Apps/CMakeFiles/edit_cache.dir
+/home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/build/Apps/CMakeFiles/rebuild_cache.dir
