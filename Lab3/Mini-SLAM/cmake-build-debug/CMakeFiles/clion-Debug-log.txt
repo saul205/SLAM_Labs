@@ -1,4 +1,0 @@
-/home/kl4ws/programs/CLion-2022.3/clion-2022.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM -B /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/kl4ws/Documents/master/SLAM/labs/Lab3/Mini-SLAM/cmake-build-debug

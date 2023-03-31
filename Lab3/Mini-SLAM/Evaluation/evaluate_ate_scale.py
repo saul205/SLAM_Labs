@@ -87,7 +87,7 @@ def align(model,data):
     s = float(dots/norms)    
 
     #print "scale: %f " % s  
-    print(s, "," , sep="", end="")
+    # print(s, "," , sep="", end="")
 
     trans = data.mean(1) - s*rot * model.mean(1)
     
@@ -170,17 +170,18 @@ if __name__=="__main__":
     second_xyz_full_aligned = scale * rot * second_xyz_full + trans
     
     if args.verbose:
-        """
-        print "compared_pose_pairs %d pairs"%(len(trans_error))
 
-        print "absolute_translational_error.rmse %f m"%numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error))
-        print "absolute_translational_error.mean %f m"%numpy.mean(trans_error)
-        print "absolute_translational_error.median %f m"%numpy.median(trans_error)
-        print "absolute_translational_error.std %f m"%numpy.std(trans_error)
-        print "absolute_translational_error.min %f m"%numpy.min(trans_error)
-        print "absolute_translational_error.max %f m"%numpy.max(trans_error)
-        """
+        print("scale:" , scale)
+        print ("compared_pose_pairs %d pairs"%(len(trans_error)))
 
+        print ("absolute_translational_error.rmse %f m"%numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error)))
+        print ("absolute_translational_error.mean %f m"%numpy.mean(trans_error))
+        print ("absolute_translational_error.median %f m"%numpy.median(trans_error))
+        print ("absolute_translational_error.std %f m"%numpy.std(trans_error))
+        print ("absolute_translational_error.min %f m"%numpy.min(trans_error))
+        print ("absolute_translational_error.max %f m"%numpy.max(trans_error))
+
+        """
         print((len(trans_error)), ",",
             numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error)), ",",
             numpy.mean(trans_error), ",",
@@ -188,6 +189,7 @@ if __name__=="__main__":
             numpy.std(trans_error), ",",
             numpy.min(trans_error), ",",
             numpy.max(trans_error), sep="")
+        """
 
     else:
         print(numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error)))
